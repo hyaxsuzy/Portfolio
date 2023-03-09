@@ -22,7 +22,13 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Motivated, innovative, and proficient as an aspiring front end web developer with 4 years’ programming experience and desire to partner with a technology startup with opportunities for long-term growth. Knowledgeable programmer seeking opportunities in software development and creative solutions design.
+        To work as a frontend web developer in
+        your progressive organization that allows
+        me the scope to update my knowledge
+        of the latest trends and be part of a
+        diverse and dynamic team that adds to
+        both my personal and professional
+        growth.
         </p>
         <div className="about__contact center">
           <a
