@@ -32,6 +32,43 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
+            date={"Aug 2018 - Sept 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              College Student
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Technological University of the Philippines
+            </h4>
+            <p data-aos="fade-right">
+              Studied Computer Engineering Technology which designs, build and
+              program computers, gain skills in the hardware and software
+              aspects of microcomputers and their applications.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date={"Nov 2021 - Feb 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -63,7 +100,8 @@ export const Timeline = () => {
               Galileo Software Services Inc.
             </h4>
             <p data-aos="fade-right">
-              Learned front-end frameworks, MERN stacks, and built serverless framework that develops and deploy AWS Lambda functions.
+              Learned front-end frameworks, MERN stacks, and built serverless
+              framework that develops and deploy AWS Lambda functions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -98,42 +136,9 @@ export const Timeline = () => {
               Creotec Philippines Inc.
             </h4>
             <p data-aos="fade-right">
-              Skills-based training in the field of engineering and technical-vocational courses such as trainees work assignment includes Code of Conduct and 5S.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Aug 2018 - Sept 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              College Student
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Technological University of the Philippines
-            </h4>
-            <p data-aos="fade-right">
-              Studied Computer Engineering Technology which designs, build and program computers, gain skills in the hardware and software aspects of microcomputers and their applications.
+              Skills-based training in the field of engineering and
+              technical-vocational courses such as trainees work assignment
+              includes Code of Conduct and 5S.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

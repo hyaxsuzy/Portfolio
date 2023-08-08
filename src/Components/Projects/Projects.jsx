@@ -8,7 +8,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
-  SiPug
+  SiPug,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -28,16 +28,16 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src={doctrack}
-                    alt="TUP Doctrack"
-                  />
+                  <img src={doctrack} alt="TUP Doctrack" />
                 </div>
               </div>
               <div className="project_information">
                 <h2>TUP Doctrack</h2>
                 <p>
-                  TUP Doctrack is a web-based printing system that was developed to solve the queuing problems with printing services at the Technological University of the Philippines by providing a fast and reliable printing system.
+                  TUP Doctrack is a web-based printing system that was developed
+                  to solve the queuing problems with printing services at the
+                  Technological University of the Philippines by providing a
+                  fast and reliable printing system.
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -75,16 +75,16 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src={quote}
-                    alt="quote"
-                  />
+                  <img src={quote} alt="quote" />
                 </div>
               </div>
               <div className="project_information">
                 <h2>Random Quote Machine</h2>
                 <p>
-                  A quote machine that displays a random quote whenever the new quote button is clicked. It can copy and paste, and tweet the current quote. Also, it can read and speak by using the speech synthesis utterance. 
+                  A quote machine that displays a random quote whenever the new
+                  quote button is clicked. It can copy and paste, and tweet the
+                  current quote. Also, it can read and speak by using the speech
+                  synthesis utterance.
                   {/* Aside from the buttons color changing, I added background images to change as well by using unsplash API. */}
                 </p>
                 <div>
@@ -126,7 +126,10 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Markdown Previewer</h2>
                 <p>
-                  Markdown previewer first loads, the default text contain valid markdown that represents each element such as heading, sub heading, link, inline code, code block, list item, blockquote, image, and bolded text.
+                  Markdown previewer first loads, the default text contain valid
+                  markdown that represents each element such as heading, sub
+                  heading, link, inline code, code block, list item, blockquote,
+                  image, and bolded text.
                 </p>
                 <div>
                   <FaReact />
@@ -156,7 +159,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -178,8 +181,8 @@ export const Projects = () => {
                   <DiCss3 />
                   <SiHtml5 />
                   <SiJavascript />
-                </div>
-                {/* <div>
+                </div> */}
+          {/* <div>
                   <a
                     href="https://search-app-production.up.railway.app"
                     target="_blank"
@@ -199,12 +202,11 @@ export const Projects = () => {
                     </span>
                   </a>
                 </div> */}
-              </div>
+          {/* </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      
     </>
   );
 };
