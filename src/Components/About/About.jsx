@@ -5,7 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
-import FacebookIcon from '@material-ui/icons/Facebook';
+import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
@@ -22,13 +22,10 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        To work as a frontend web developer in
-        your progressive organization that allows
-        me the scope to update my knowledge
-        of the latest trends and be part of a
-        diverse and dynamic team that adds to
-        both my personal and professional
-        growth.
+          To work as a frontend web developer in your progressive organization
+          that allows me the scope to update my knowledge of the latest trends
+          and be part of a diverse and dynamic team that adds to both my
+          personal and professional growth.
         </p>
         <div className="about__contact center">
           <a
@@ -82,7 +79,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1Y35TRtQdtiU8I5xwMy46BnnlbPi_1FU5/view?usp=share_link"
+              "https://drive.google.com/file/d/1Pfv4ZCf1zziqglzZXD8wwdltccIJsdLU/view?usp=sharing"
             );
           }}
         >
