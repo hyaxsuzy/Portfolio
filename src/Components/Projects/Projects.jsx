@@ -50,7 +50,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://tup-doctrack.up.railway.app"
+                    href="https://tup-doctrack.onrender.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -95,7 +95,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://quote-generator-production.up.railway.app"
+                    href="https://quote-machine-9kir.onrender.com"
                     target="_blank"
                     rel="noreferrer"
                   >
