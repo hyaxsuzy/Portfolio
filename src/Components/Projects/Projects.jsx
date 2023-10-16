@@ -158,33 +158,28 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src={tour}
-                    alt=""
-                  />
+                  <img src={markdown} alt="markdown" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>El Nido Tour Packages</h2>
+                <h2>MedGrocer</h2>
                 <p>
-                  A work in progress tour agency web application based on El Nido Paradise website.
+                  MedGrocer is a fast growing “medicine-as-a-service” startup
+                  that provides digitally-enabled online pharmacy, corporate
+                  clinics, and patient programs to empower consumers to get
+                  their medicines conveniently, cost-effectively, and
+                  intelligently.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <SiJavascript />
-                </div> */}
-          {/* <div>
+                  <FaFigma />
+                </div>
+                <div>
                   <a
-                    href="https://search-app-production.up.railway.app"
+                    href="https://www.figma.com/file/JdLUxLgR3jyMuT7F6z03Mk/KadaKrew?type=design&node-id=118%3A1393&mode=design&t=DbbZvM1Oqr8Pkftg-1"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -192,19 +187,10 @@ export const Projects = () => {
                       Link
                     </span>
                   </a>
-                  <a
-                    href="https://github.com/hyaxsuzy/Search-App"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div> */}
-          {/* </div>
+                </div>
+              </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
