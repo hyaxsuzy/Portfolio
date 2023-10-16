@@ -69,7 +69,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Feb 2022"}
+            date={"Oct 2021 - Feb 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
