@@ -9,6 +9,7 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiPug,
+  SiFigma,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -16,6 +17,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import doctrack from "../../assets/doctrack.PNG";
 import quote from "../../assets/quote.PNG";
 import markdown from "../../assets/markdown.PNG";
+import medgrocer from "../../assets/medgrocer.PNG";
 import tour from "../../assets/tour.PNG";
 
 export const Projects = () => {
@@ -162,7 +164,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={markdown} alt="markdown" />
+                  <img src={medgrocer} alt="medgrocer" />
                 </div>
               </div>
               <div className="project_information">
@@ -175,7 +177,7 @@ export const Projects = () => {
                   intelligently.
                 </p>
                 <div>
-                  <FaFigma />
+                  <SiFigma />
                 </div>
                 <div>
                   <a
