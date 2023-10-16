@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaUnsplash, FaFreeCodeCamp } from "react-icons/fa";
+import { FaReact, FaUnsplash, FaFreeCodeCamp, FaFigma } from "react-icons/fa";
 import {
   SiHtml5,
   SiMaterialui,
