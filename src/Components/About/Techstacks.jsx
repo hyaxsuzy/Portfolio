@@ -9,7 +9,7 @@ import {
   SiRedis,
   SiTailwindcss,
   SiNetlify,
-  SiPug
+  SiPug,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -19,7 +19,7 @@ import { BsBootstrap, BsWordpress } from "react-icons/bs";
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      <div className="section main" data-aos="zoom-in">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>

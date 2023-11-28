@@ -18,6 +18,7 @@ import doctrack from "../../assets/doctrack.PNG";
 import quote from "../../assets/quote.PNG";
 import markdown from "../../assets/markdown.PNG";
 import medgrocer from "../../assets/medgrocer.PNG";
+import meron from "../../assets/meron.PNG";
 import tour from "../../assets/tour.PNG";
 
 export const Projects = () => {
@@ -26,7 +27,7 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-          <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="zoom-in">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -73,7 +74,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="zoom-in">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -118,7 +119,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="zoom-in">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -160,7 +161,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="zoom-in">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -173,8 +174,7 @@ export const Projects = () => {
                   MedGrocer is a fast growing “medicine-as-a-service” startup
                   that provides digitally-enabled online pharmacy, corporate
                   clinics, and patient programs to empower consumers to get
-                  their medicines conveniently, cost-effectively, and
-                  intelligently.
+                  their medicines conveniently, and cost-effectively.
                 </p>
                 <div>
                   <SiFigma />
@@ -182,6 +182,38 @@ export const Projects = () => {
                 <div>
                   <a
                     href="https://www.figma.com/file/JdLUxLgR3jyMuT7F6z03Mk/KadaKrew?type=design&node-id=118%3A1393&mode=design&t=DbbZvM1Oqr8Pkftg-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      Link
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="zoom-in">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={meron} alt="medgrocer" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Meron</h2>
+                <p>
+                  Meron is a software business that provides a platform for
+                  businesses to share and reuse assets. This helps businesses to
+                  reduce costs, improve sustainability, and increase efficiency
+                  in managing their assets.
+                </p>
+                <div>
+                  <SiFigma />
+                </div>
+                <div>
+                  <a
+                    href="https://www.figma.com/file/R6v3cAZJntbzSQsc6VIgJP/Prototype?type=design&node-id=0%3A1&mode=design&t=HthHoBdBOi10BzkG-1"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -4,14 +4,13 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/hya.JPG";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
       <section id="#about">
-        <div className="section" data-aos="fade-right">
+        <div className="section" data-aos="zoom-in">
           <h2 className="section__title">
             About <span className="different">Me</span>
           </h2>
@@ -22,20 +21,20 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Hyacinth Escosura </span> and I am from{" "}
+                <span className="different">Hyacinth Escosura </span> and I am
+                from{" "}
+                <span className="different"> Bacoor, Cavite (Philippines)</span>
+                . I have completed my graduation with a bachelor's degree in{" "}
                 <span className="different">
-                  {" "}
-                  Bacoor, Cavite (Philippines)
+                  Computer Engineering Technology
+                </span>{" "}
+                from the{" "}
+                <span className="different">
+                  Technological University of the Philippines (Manila)
                 </span>
-                . I have completed my graduation majored in Computer Engineering Technology
-                at{" "}
-                <span className="different">
-                  Technological University of the Philippines
-                </span>
-                . Then I interned as a web app developer at the{" "}
-                <span className="different">
-                  Galileo Software Services Inc.
-                </span> a tech company in Ortigas, Pasig.
+                . I have interned as a{" "}
+                <span className="different">Web App Developer</span> at a tech
+                company in Ortigas, Pasig.
               </h4>
               {/* <h4>Terms that can describe me apart form coding :</h4>
               <h4 className="different">

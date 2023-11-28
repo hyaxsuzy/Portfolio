@@ -27,17 +27,17 @@ export const Timeline = () => {
   return (
     <>
       <div className="section mainsection">
-        <h2 className="section__title" data-aos="fade-right">
+        <h2 className="section__title" data-aos="zoom-in">
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Aug 2018 - Sept 2022"}
+            date="Aug 2018 - Sept 2022"
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              // textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -52,29 +52,29 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
               College Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
               Technological University of the Philippines
             </h4>
-            <p data-aos="fade-right">
+            <p>
               Studied Computer Engineering Technology which designs, build and
               program computers, gain skills in the hardware and software
               aspects of microcomputers and their applications.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2021 - Feb 2022"}
+            date="Oct 2021 - Feb 2022"
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              // textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -89,28 +89,28 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              // data-aos="fade-left"
             >
               Web App Developer Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              // data-aos="fade-left"
             >
               Galileo Software Services Inc.
             </h4>
-            <p data-aos="fade-right">
+            <p>
               Learned front-end frameworks, MERN stacks, and built serverless
               framework that develops and deploy AWS Lambda functions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Feb 2018"}
+            date="Feb 2018 - Apr 2018"
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              // textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -125,17 +125,17 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
               Production Area, Creotec Work Immersion
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
               Creotec Philippines Inc.
             </h4>
-            <p data-aos="fade-right">
+            <p>
               Skills-based training in the field of engineering and
               technical-vocational courses such as trainees work assignment
               includes Code of Conduct and 5S.

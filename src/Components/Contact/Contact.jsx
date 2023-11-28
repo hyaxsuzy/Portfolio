@@ -12,16 +12,16 @@ export const Contact = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title" data-aos="fade-right">
+        <h2 className="section__title" data-aos="zoom-in">
           Get in <span className="different">Touch</span>
         </h2>
         <div className="contactMain">
           <div
             className={"contactcontainer " + themename}
-            data-aos="fade-right"
+            data-aos="zoom-in"
           >
             <a
-              href="https://www.linkedin.com/in/hyacinth-escosura-2b0b99268/"
+              href="https://www.linkedin.com/in/hyacinth-escosura/"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,7 +45,7 @@ export const Contact = () => {
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
-          <div className="mailNumber" data-aos="fade-right">
+          <div className="mailNumber" data-aos="zoom-in">
             <div>
               <span>
                 <CgMail className="email" />

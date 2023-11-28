@@ -17,11 +17,11 @@ export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1 data-aos="fade-right" className="mobileHead">
+        <h1 data-aos="zoom-in" className="mobileHead">
           Hello, I am <span className="about__name">Hyacinth Escosura</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        <p className="about__desc" data-aos="zoom-in">
           To work as a frontend web developer in your progressive organization
           that allows me the scope to update my knowledge of the latest trends
           and be part of a diverse and dynamic team that adds to both my
@@ -56,7 +56,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/hyacinth-escosura-2b0b99268/"
+            href="https://www.linkedin.com/in/hyacinth-escosura/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -79,7 +79,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1KzGNuzj9ikQR8HTC3WbRRc7wPeEWc7JP/view?usp=sharing"
+              "https://drive.google.com/file/d/1r5zghYeGAM43MRGJocVPHdK_PklCPQnN/view?usp=sharing"
             );
           }}
         >
