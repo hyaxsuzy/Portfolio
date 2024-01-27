@@ -17,8 +17,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import doctrack from "../../assets/doctrack.PNG";
 import quote from "../../assets/quote.PNG";
 import markdown from "../../assets/markdown.PNG";
-import medgrocer from "../../assets/medgrocer.PNG";
-import meron from "../../assets/meron.PNG";
+import medgrocer from "../../assets/medgrocer.png";
+import meron from "../../assets/meron.png";
 import tour from "../../assets/tour.PNG";
 
 export const Projects = () => {
@@ -42,7 +42,7 @@ export const Projects = () => {
                   Technological University of the Philippines by providing a
                   fast and reliable printing system.
                 </p>
-                <div>
+                <div id="icon_container">
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
@@ -90,7 +90,7 @@ export const Projects = () => {
                   synthesis utterance.
                   {/* Aside from the buttons color changing, I added background images to change as well by using unsplash API. */}
                 </p>
-                <div>
+                <div id="icon_container">
                   <DiCss3 />
                   <SiHtml5 />
                   <SiJavascript />
@@ -134,7 +134,7 @@ export const Projects = () => {
                   heading, link, inline code, code block, list item, blockquote,
                   image, and bolded text.
                 </p>
-                <div>
+                <div id="icon_container">
                   <FaReact />
                   <FaFreeCodeCamp />
                 </div>
@@ -176,17 +176,26 @@ export const Projects = () => {
                   clinics, and patient programs to empower consumers to get
                   their medicines conveniently, and cost-effectively.
                 </p>
-                <div>
+                <div id="icons_container">
                   <SiFigma />
                 </div>
                 <div>
                   <a
-                    href="https://www.figma.com/file/JdLUxLgR3jyMuT7F6z03Mk/KadaKrew?type=design&node-id=118%3A1393&mode=design&t=DbbZvM1Oqr8Pkftg-1"
+                    href="https://www.behance.net/gallery/190035911/MedGrocer-Consolidated-Brand-Identity"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
                       Link
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.figma.com/file/JdLUxLgR3jyMuT7F6z03Mk/KadaKrew?type=design&node-id=118%3A1393&mode=design&t=DbbZvM1Oqr8Pkftg-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Figma
                     </span>
                   </a>
                 </div>
@@ -208,17 +217,26 @@ export const Projects = () => {
                   reduce costs, improve sustainability, and increase efficiency
                   in managing their assets.
                 </p>
-                <div>
+                <div id="icons_container">
                   <SiFigma />
                 </div>
                 <div>
-                  <a
+                  {/* <a
                     href="https://www.figma.com/file/R6v3cAZJntbzSQsc6VIgJP/Prototype?type=design&node-id=0%3A1&mode=design&t=HthHoBdBOi10BzkG-1"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
                       Link
+                    </span>
+                  </a> */}
+                  <a
+                    href="https://www.figma.com/file/R6v3cAZJntbzSQsc6VIgJP/Prototype?type=design&node-id=0%3A1&mode=design&t=HthHoBdBOi10BzkG-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Figma
                     </span>
                   </a>
                 </div>

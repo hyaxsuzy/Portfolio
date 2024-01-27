@@ -22,10 +22,9 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="zoom-in">
-          To work as a frontend web developer in your progressive organization
-          that allows me the scope to update my knowledge of the latest trends
-          and be part of a diverse and dynamic team that adds to both my
-          personal and professional growth.
+          To work in your progressive organization that allows me the scope to
+          update my knowledge of the latest trends and be part of a diverse and
+          dynamic team that adds to both my personal and professional growth.
         </p>
         <div className="about__contact center">
           <a
@@ -79,7 +78,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1r5zghYeGAM43MRGJocVPHdK_PklCPQnN/view?usp=sharing"
+              "https://drive.google.com/file/d/1GUffgmAKGXfjKQ-6h2Ib3qyMZKAFkQzG/view?usp=sharing"
             );
           }}
         >

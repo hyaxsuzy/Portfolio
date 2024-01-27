@@ -10,6 +10,7 @@ import {
   SiTailwindcss,
   SiNetlify,
   SiPug,
+  SiFigma,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -65,8 +66,8 @@ export const Techstacks = () => {
             <h5>PugJS</h5>
           </div>
           <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
+            <SiFigma />
+            <h5>Figma</h5>
           </div>
           <div>
             <VscGithub />
