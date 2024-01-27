@@ -17,8 +17,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import doctrack from "../../assets/doctrack.PNG";
 import quote from "../../assets/quote.PNG";
 import markdown from "../../assets/markdown.PNG";
-import medgrocer from "../../assets/medgrocer.png";
-import meron from "../../assets/meron.png";
+import medgrocer from "../../assets/medgrocer.PNG";
+import meron from "../../assets/meron.PNG";
 import tour from "../../assets/tour.PNG";
 
 export const Projects = () => {
